@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VEL TECH</title>
+
+
+
+
+
+<!--BootStrap CSS Files-->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+<link rel="stylesheet" href="bootstrap/css/mdb.css">
+<link rel="stylesheet" href="bootstrap/css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+</head>
+<body>
+<!--Main Navbar-->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<div class="container">
+<a href="index.html" class="navbar-brand text-warning">
+<i class="fa fa-snowflake"></i> VelTech University
+</a>
+<button class="navbar-toggler" data-toggle="collapse" data-target="#ui-navbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="ui-navbar">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="#">
+<i class="fa fa-chart-bar text-muted"></i> Dashboard</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">
+<i class="fa fa-list text-muted"></i> Admission</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">
+<i class="fa fa-sitemap text-muted"></i> Fee Structure</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">
+<i class="fa fa-users text-muted"></i> Student Info</a>
+</li>
+</ul>
+<ul class="navbar-nav ml-auto">
+<li class="nav-item dropdown">
+<a class="nav-link" href="#" data-toggle="dropdown">
+<i class="fa fa-sign-in-alt text-muted"></i> User</a>
+<div class="dropdown-menu p-2">
+<a href="#" class="dropdown-item">
+<i class="fa fa-user-circle"></i>Profile</a>
+<a href="#" class="dropdown-item">
+<i class="fa fa-cogs"></i>Settings</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">
+<i class="fa fa-sign-out-alt text-muted"></i> Logout</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</nav>
+<!--Dashboard Section-->
+<section class="p-2 bg-teal text-black-50 bg-success">
+<div class="container">
+<div class="row">
+<h1>
+<i class="fa fa-chart-bar"></i>Dashboard</h1>
+</div>
+</div>
+</section>
+<!--Buttons Section-->
+<section class="p-3 bg-light">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<button class="btn btn-primary btn-block" data-toggle="modal" data-target="#task-modal">
+<i class="fa fa-plus-circle"></i>  Department
+</button>
+</div>
+<div class="col-md-4">
+<button class="btn btn-success btn-block" data-toggle="modal" data-target="#category-modal">
+<i class="fa fa-plus-circle"></i> Joining date
+</button>
+</div>
+<div class="col-md-4">
+<button class="btn btn-warning btn-block" data-toggle="modal" data-target="#employee-modal">
+<i class="fa fa-plus-circle"></i> Student
+</button>
+</div>
+</div>
+</div>
+</section>
+<!--Main Content Section-->
+<section class="p-3">
+<div class="container">
+<div class="row">
+<div class="col-md-9">
+<div class="card">
+<div class="card-header bg-secondary text-white">
+<h3>Admission Details</h3>
+</div>
+<div class="card-body bg-light">
+<table class="table table-hover text-center">
+<thead class="bg-dark text-white">
+<tr>
+<th>SNO</th>
+<th>NAME</th>
+<th>EMAIL</th>
+<th>DEPARTMENT</th>
+<th>LEVEL</th>
+<th>SPECIALIZATION</th>
+<th>DETAILS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Rangarajan</td>
+<td>Rangarajan@123.com</td>
+<td>Comper Science And Engineering </td>
+<td>UG/PG</td>
+<td>Data Science</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>K.Sreeleela</td>
+<td>Sreeleela@321.com</td>
+<td>Aeronautical Engineering</td>
+<td>UG/PG</td>
+<td>General</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Ms.Kishore</td>
+<td>kishore@gmail.com</td>
+<td>Civil Engineering</td>
+<td>UG/PG</td>
+<td>General</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>S.Durga</td>
+<td>Durga@gmail.com</td>
+<td>Comuter Science And engineering</td>
+<td>Ug/PG</td>
+<td>Artificial Intelligence</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>B.Anod</td>
+<td>anod@gmail.com</td>
+<td>Computer Science And Engineering</td>
+<td>UG/PG</td>
+<td>Design</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>6</td>
+<td>K.Vamshi</td>
+<td>vamshi@gamil876.com</td>
+<td>Computer Science And Engineering</td>
+<td>UG/PG</td>
+<td>Cyber Security</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+<tr>
+<td>7</td>
+<td>C.Tulasi</td>
+<td>tulasi@gmails.com</td>
+<td>Computer Science And Engineering</td>
+<td>UG/PG</td>
+<td>AI&DS</td>
+<td>
+<a href="#" class="btn btn-outline-dark btn-sm">Details</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+        <div class="row align-items-center">
+        <div class="col">
+        <i class="fa fa-list fa-4x"></i>
+        </div>
+        <div class="col">
+        <h3 class="display-3">08</h3>
+        <h6>Admission Details</h6>
+        </div>
+        </div>
+        </div>
+        <div class="card-footer text-center">
+        <h4>
+        <a href="#" class="text-primary">
+        View Details <i class="fa fa-arrow-alt-circle-right"></i>
+        </a>
+        </h4>
+        </div>
+        </div>
+        <div class="card mt-4">
+        <div class="card-header bg-success text-white">
+        <div class="row align-items-center">
+        <div class="col">
+        <i class="fa fa-sitemap fa-4x"></i>
+        </div>
+        <div class="col">
+        <h3 class="display-3">08</h3>
+        <h6>Fee Structure</h6>
+        </div>
+        </div>
+        </div>
+        <div class="card-footer text-center">
+        <h4>
+        <a href="#" class="text-success">
+        View Details <i class="fa fa-arrow-alt-circle-right"></i>
+        </a>
+        </h4>
+        </div>
+        </div>
+        <div class="card mt-4">
+        <div class="card-header bg-warning text-white">
+        <div class="row align-items-center">
+        <div class="col">
+        <i class="fa fa-users fa-4x"></i>
+        </div>
+        <div class="col">
+        <h3 class="display-3">08</h3>
+        <h6>Registration Details</h6>
+        </div>
+        </div>
+        </div>
+        <div class="card-footer text-center">
+        <h4>
+        <a href="#" class="text-warning">
+        View Details <i class="fa fa-arrow-alt-circle-right"></i>
+        </a>
+        </h4>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <!--Main Footer-->
+        <footer class="p-3 bg-dark text-white text-center">
+        <div class="container">
+        <div class="row">
+        <div class="col">
+        <h3>Copyright &copy; 2023, Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology</h3>
+        <h6>All Rights Reserved</h6>
+<h6>Developed and Maintained by
+<a class="text-warning" href="#">BandiAnodReddy</a>
+</h6>
+</div>
+</div>
+</div>
+</footer>
+<!--Task Modal-->
+<div class="modal" id="task-modal">
+<div class="modal-dialog modal-lg">
+<div class="modal-content animated jackInTheBox">
+<div class="modal-header bg-primary text-white">
+<h3>Department</h3>
+<button class="close" data-dismiss="modal">
+<i class="fa fa-times-circle"></i>
+</button>
+</div>
+<div class="modal-body bg-light">
+<form>
+<div class="form-group">
+<label class="form-check-label">Department Name</label>
+<input type="text" class="form-control" placeholder="eg: Computer Science and Engineering.">
+</div>
+<div class="form-group">
+<label class="form-check-label">Specialization
+</label>
+<select class="form-control">
+<option value="">Select a Specialization</option>
+<option value="">Automobile Engineering Robotics </option>
+<option value="">Automation Internet of Things Cyber Security</option>
+<option value="">Data Science & Artificial Intelligence</option>
+<option value="">Data science</option>
+<option value="">Cybersecurity</option>
+<option value="">computer science and Design</option>
+<option value="">Artificial intelligence</option>
+<option value="">And more.....</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-check-label">Image Upload</label>
+<input type="file" class="form-control-file">
+<small>Max Size: 3MB</small>
+</div>
+<div class="form-group">
+<label class="form-check-label">Any Queries</label>
+<textarea name="editor1" rows="4" class="form-control" placeholder="Description"></textarea>
+</div>
+<div>
+<input type="submit" class="btn btn-primary" value="Submit">
+<a href="#" data-dismiss="modal" class="btn btn-dark">close</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--Category Modal-->
+<div class="modal" id="category-modal">
+<div class="modal-dialog modal-lg">
+<div class="modal-content animated flipInX">
+<div class="modal-header bg-success text-white">
+<h3>DATE OF REPORTING COLLEGE</h3>
+<button class="close" data-dismiss="modal">
+<i class="fa fa-times-circle"></i>
+</button>
+</div>
+<div class="modal-body bg-light">
+<form>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Student-name">
+</div>
+<div class="form-group">
+    <input type="date" class="form-control">
+</div>
+<input type="Select" class="btn btn-success" value="SELECT">
+<a href="#" data-dismiss="modal" class="btn btn-dark">close</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--Employee Modal-->
+<div class="modal" id="employee-modal">
+<div class="modal-dialog modal-lg">
+<div class="modal-content animated flipInY">
+<div class="modal-header bg-success text-white">
+<h3>Student Information</h3>
+<button class="close" data-dismiss="modal">
+<i class="fa fa-times-circle"></i>
+</button>
+</div>
+<div class="modal-body bg-light">
+<form>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Student-name">
+</div>
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Student-Email">
+</div>
+<div class="form-group">
+<input type="password" class="form-control" placeholder="Default Password">
+</div>
+<input type="submit" class="btn btn-warning" value="Save">
+<a href="#" data-dismiss="modal" class="btn btn-dark">close</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--BOOTSTRAP js FILES-->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/mdb.js"></script>
+<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+<script>
+CKEDITOR.replace( 'editor1' );
+</script>
+</body>
+</html>
